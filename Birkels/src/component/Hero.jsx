@@ -11,7 +11,7 @@ export default function Hero() {
     <div className="w-full bg-[#f9f9f9] sm:py-[50px] p-5 sm:p-0">
       <div
         style={{ backgroundImage: `url(${bgImage})` }}
-        className="max-w-[1120px] h-[700px] mx-auto bg-cover p-4 bg-center bg-no-repeat flex flex-col items-center justify-center text-center px-4 rounded-xl shadow-lg relative overflow-hidden"
+        className="max-w-[1120px] h-[500px] mx-auto bg-cover p-4 bg-center bg-no-repeat flex flex-col items-center justify-center text-center px-4 rounded-xl shadow-lg relative overflow-hidden"
       >
         {/* Optional overlay for better text visibility */}
         <div className="absolute inset-0 bg-black bg-opacity-40 z-0" />
