@@ -3,7 +3,7 @@
 
 
 
-import React from 'react';
+
 import bgImage from '../assets/hero.jpg';
 
 export default function Hero() {

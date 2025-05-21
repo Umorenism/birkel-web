@@ -1,4 +1,4 @@
-import React from 'react'
+
 import img from '../assets/footer.jpg'
 import logo from '../assets/logo-white.svg'
 import { FaFacebook, FaInstagram, FaLinkedin, FaTwitter } from 'react-icons/fa'
@@ -10,14 +10,11 @@ export default function Footer() {
   src={img}
   alt="Footer background"
   className="absolute bottom-1 left-0 w-full h-full object-cover"
-//   style={{
-//     backgroundImage: `linear-gradient(rgba(0, 20, 61, 0.8), rgba(0, 41, 122, 0.8)),url(${img})`
-//   }}
+
 />
 
 
-  {/* Gradient Overlay with Blur (no opacity) */}
-  {/* <div className="absolute inset-0 bg-gradient-to-tr from-[#001338]/40 to-[#001338]/90 "></div> */}
+  
 
   <div className="absolute inset-0 bg-[#001F5C]/90"></div>
 

@@ -1,4 +1,4 @@
-import React from 'react'
+
 import pic from '../assets/Group 97.svg'
 
 export default function Choose() {

@@ -1,24 +1,4 @@
 
-// import { IoIosArrowDown } from "react-icons/io";
-
-
-// const Foa = () => {
-//   return (
-//     <div className="w-full min-h-[500px]  text-black py-16 px-4 sm:px-0 bg-blue-500">
-
-//          <h1 className="text-3xl sm:text-4xl font-bold mb-4 text-[#003399] w-full text-center">FAQ</h1>
-//          <div className="max-w-[1120px] mx-auto flex flex-col items-center text-center">
-//           <div className="flex items-center justify-between w-full sm:max-w-[900px] border py-3 p-2 mt-10">
-//             <h1>What services does Brikel provide?</h1>
-//             <IoIosArrowDown/>
-//           </div>
-//       </div>
-//     </div>
-//   );
-// };
-
-// export default Foa;
-
 
 
 
