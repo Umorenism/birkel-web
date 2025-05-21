@@ -10,7 +10,7 @@ export default function Choose() {
           {/* Text Section */}
           <div className="space-y-6 text-left">
               <button className="bg-[#F0F3F9] border border-[#FBFCFD] text-[#003399] px-5 py-2 rounded-full hover:bg-blue-700 transition">Choose Birkel</button>
-            <p className="text-gray-600">
+            <p className="text-[#2A2A2A] font-poppins">
               With the vision of transforming the way sports facilities are managed in Nigeria,
               Brikel has quickly established itself as a leader in the sports facility management industry.
             </p>

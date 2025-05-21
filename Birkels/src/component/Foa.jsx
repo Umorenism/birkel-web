@@ -29,10 +29,11 @@ import img from '../assets/circle.jpg'
 import imgs from '../assets/web-screen.png'
 
 const faqs = [
-  {
-    question: "What services does Brikel provide?",
-    answer: "Brikel offers web development, app design, and digital strategy services."
-  },
+ {
+  question: "What services does Brikel provide?",
+  answer: "We offer comprehensive sport facility management solutions, including:\n- Daily operations and supervision\n- Staffing and personnel management\n- Facility maintenance (routine and emergency)\n- Event planning and coordination\n- Scheduling and booking management\n- Marketing and revenue optimization strategies"
+},
+
   {
     question: "How can I contact Brikel?",
     answer: "You can reach us via our contact form or at contact@brikel.com."
@@ -84,24 +85,24 @@ const Foa = () => {
       <h1 className="text-3xl sm:text-4xl font-bold mb-8 text-white w-full text-center">
         FAQ
       </h1>
- <div className="absolute inset-0 bg-[#001F5C]/40"></div>
+ <div className="absolute inset-0 rounded-[5px] bg-[#001F5C]/40"></div>
       <div className="max-w-[1120px] mx-auto flex flex-col gap-4 items-center text-white">
         {faqs.map((item, index) => (
           <div
             key={index}
-            className="w-full sm:max-w-[900px] bg-gradient-to-r from-[#00143D]/80 to-[#00297A]/80  backdrop-blur-md rounded-md border border-white/30 p-4 transition-all duration-300"
+            className="w-full sm:max-w-[800px] py-2 bg-gradient-to-r from-[#00143D]/80 to-[#00297A]/80  backdrop-blur-md rounded-md border border-white/30 p-4 transition-all duration-300"
           >
             <div
               onClick={() => toggleAccordion(index)}
               className="flex justify-between items-center cursor-pointer"
             >
-              <h2 className="text-lg font-semibold text-white">{item.question}</h2>
+              <h2 className="text-lg font-semibold font-poppins text-white">{item.question}</h2>
               <span className="text-white">
                 {openIndexes.includes(index) ? <IoIosArrowUp size={24} /> : <IoIosArrowDown size={24} />}
               </span>
             </div>
             {openIndexes.includes(index) && (
-              <div className="mt-2 text-white text-sm">
+              <div className="mt-2 text-white font-poppins text-sm">
                 {item.answer}
               </div>
             )}

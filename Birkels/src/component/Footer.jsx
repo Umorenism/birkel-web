@@ -36,27 +36,27 @@ export default function Footer() {
       <div className="w-full grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 gap-10 text-sm sm:text-base">
         {/* Company */}
         <div className="flex flex-col space-y-2">
-          <h2 className="font-semibold text-white mb-2">Company</h2>
-          <a href="#" className="hover:underline text-gray-200">Home</a>
-          <a href="#" className="hover:underline text-gray-200">Bookings</a>
-          <a href="#" className="hover:underline text-gray-200">FAQs</a>
-          <a href="#" className="hover:underline text-gray-200">Contact</a>
+          <h2 className="font-poppins text-white mb-2">Company</h2>
+          <a href="#" className="hover:underline text-gray-200 font-poppins">Home</a>
+          <a href="#" className="hover:underline text-gray-200 font-poppins">Bookings</a>
+          <a href="#" className="hover:underline text-gray-200 font-poppins">FAQs</a>
+          <a href="#" className="hover:underline text-gray-200 font-poppins">Contact</a>
         </div>
 
         {/* Legal */}
         <div className="flex flex-col space-y-2">
-          <h2 className="font-semibold text-white mb-2">Legal</h2>
-          <a href="#" className="hover:underline text-gray-200">Terms & Conditions</a>
-          <a href="#" className="hover:underline text-gray-200">Privacy Policy</a>
-          <a href="#" className="hover:underline text-gray-200">Cookies Policy</a>
+          <h2 className="font-poppins text-white mb-2 ">Legal</h2>
+          <a href="#" className="hover:underline text-gray- font-poppins">Terms & Conditions</a>
+          <a href="#" className="hover:underline text-gray-200 font-poppins">Privacy Policy</a>
+          <a href="#" className="hover:underline text-gray-200 font-poppins">Cookies Policy</a>
         </div>
 
         {/* Contact */}
         <div className="flex flex-col space-y-2"> 
           <h2 className="font-semibold text-white mb-2">Contact</h2>
-          <p className="text-gray-200">Address: Your Street, City, NG</p>
-          <p className="text-gray-200">Tel: +234.....</p>
-          <a href="mailto:hello@brikel.com" className="hover:underline text-gray-200">hello@brikel.com</a>
+          <p className="text-gray-200 font-poppins">Address: Your Street, City, NG</p>
+          <p className="text-gray-200 font-poppins">Tel: +234.....</p>
+          <a href="mailto:hello@brikel.com" className="hover:underline text-gray-200 font-poppins">hello@brikel.com</a>
         </div>
       </div>
     </div>
@@ -69,7 +69,7 @@ export default function Footer() {
         <FaLinkedin className="hover:text-gray-300 transition" />
         <FaTwitter className="hover:text-gray-300 transition" />
       </div>
-      <h1 className="text-gray-300 text-sm text-center md:text-right">© 2025 BRIKEL. All rights reserved.</h1>
+      <h1 className="text-gray-300 text-sm text-center md:text-right font-poppins">© 2025 BRIKEL. All rights reserved.</h1>
     </div>
   </div>
 </div>

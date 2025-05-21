@@ -15,8 +15,8 @@ const Services = () => {
         </a>
 
         {/* Title and Text */}
-        <h1 className="text-3xl sm:text-4xl font-bold mb-4 text-[#003399]">Welcome to Brikel</h1>
-        <p className="text-lg max-w-[600px] mb-2">
+        <h1 className="text-3xl sm:text-4xl font-poppins mb-4 text-[#003399]">Welcome to Brikel</h1>
+        <p className="text-lg max-w-[600px] font-poppins mb-2">
           With innovative strategies, advanced technology, and a strong commitment
         </p>
         <p className="text-lg max-w-[600px] mb-12">
@@ -28,7 +28,7 @@ const Services = () => {
           {/* Card 1 */}
           <div className="bg-[#fofofo] border border-[#BAE5FA] text-gray-800 p-6 rounded-lg shadow-md flex flex-col items-center text-center">
             <TbDeviceAnalytics className="text-4xl text-blue-600 mb-4" />
-            <h3 className="text-xl font-semibold mb-2 text-[#003399]">Reporting & Analytics</h3>
+            <h3 className="text-xl font-semibold font-poppins mb-2 text-[#003399]">Reporting & Analytics</h3>
             <p>Generate detailed reports on maintenance 
               activities, asset performance and more for informed decision-making</p>
           </div>
@@ -36,7 +36,7 @@ const Services = () => {
           {/* Card 2 */}
           <div className="bg-[#fofofo] text-gray-800 border border-[#BAE5FA] p-6 rounded-lg shadow-md flex flex-col items-center text-center">
             <TiSpanner className="text-4xl text-blue-600 mb-4" />
-            <h3 className="text-xl font-semibold mb-2">Maintenance Scheduling</h3>
+            <h3 className="text-xl font-semibold font-poppins mb-2">Maintenance Scheduling</h3>
             <p>Prevent unexpected failures through time and equipment usage data 
             maintenance schedules</p>
           </div>
@@ -44,8 +44,8 @@ const Services = () => {
           {/* Card 3 */}
           <div className="bg-[#fofofo] border border-[#BAE5FA] text-gray-800 p-6 rounded-lg shadow-md flex flex-col items-center text-center">
             <IoIosLock className="text-4xl text-blue-600 mb-4" />
-            <h3 className="text-xl font-semibold mb-2">Security</h3>
-            <p>We offer robust security measures to 
+            <h3 className="text-xl font-semibold font-poppins mb-2">Security</h3>
+            <p className='font-poppins'>We offer robust security measures to 
 protect sensitive information including data encryption, user authentication and more.</p>
           </div>
         </div>
