@@ -1,5 +1,5 @@
 import  { useState } from "react";
-import logo from "../assets/birkeslogo.png";
+import logo from "../assets/Logo 2.svg";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { IoIosArrowDown } from "react-icons/io";
 
@@ -15,11 +15,11 @@ const Header = () => {
       <header className="fixed top-0 left-0 w-full bg-white  z-50">
         <div className="max-w-[1060px] mx-auto px-4 flex justify-between items-center py-5">
           {/* Logo */}
-          <div className="flex items-center gap-4">
-            <img src={logo} alt="Logo" className="h-14 w-14 object-contain" />
+          <div className="flex items-center gap-6">
+            <img src={logo} alt="Logo" className="h-[50px] w-[121px] object-contain " />
 
             <nav className="hidden md:flex items-center gap-10">
-              <ul className="flex items-center gap-8 text-gray-700 font-medium">
+              <ul className="flex items-center gap-8 text-gray-700 font-bold">
                 <li className="hover:text-[#003399] cursor-pointer">Home</li>
 
                 <li className="hover:text-[#003399] cursor-pointer flex items-center gap-1">
@@ -39,9 +39,11 @@ const Header = () => {
             </nav>
           </div>
           <a href="tel:+1234567890" className="hidden sm:block">
-          <button className="w-[140px] h-[44px] bg-[#1212121A] hidden sm:block rounded-full border border-[#003399] text-[#003399] font-medium">
-            Book a Call
-          </button>
+        <button className="w-[141px] h-[44px] px-[26px] py-[10px] rounded-full border border-[#003399] text-[#003399] font-medium bg-gradient-to-r from-[#CCD6EB] to-[#F5F5F5] hidden sm:block">
+  Book a Call
+</button>
+
+
           </a>
 
           {/* Desktop Nav */}
