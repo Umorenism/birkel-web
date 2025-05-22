@@ -169,17 +169,17 @@ const Foa = () => {
 
 
         {/* Content container */}
-        <div className="relative z-10 max-w-[1280px] mx-auto flex flex-col gap-[50px]">
+        <div className="relative z-10 max-w-[1500px] mx-auto flex flex-col gap-[50px]">
           <h1 className="text-3xl sm:text-4xl font-bold text-white text-center">
             FAQ
           </h1>
 
           {/* FAQ Accordions */}
-          <div className="max-w-[1120px] mx-auto flex flex-col gap-6 items-center text-white px-2 sm:px-0">
+          <div className="max-w-[1500px] mx-auto flex text-[12px] flex-col gap-6 items-center text-white px-2 sm:px-0">
             {faqs.map((item, index) => (
               <div
                 key={index}
-                className="w-full sm:max-w-[1120px] bg-gradient-to-r from-[#00143D]/80 to-[#00297A]/80 backdrop-blur-md rounded-md border border-white/30 p-4 transition-all duration-300"
+                className="w-full sm:max-w-[1500px]  sm:bg-gradient-to-r from-[#00143D]/80 to-[#00297A]/80 backdrop-blur-md rounded-md border border-white/30 p-2 text-[12px] transition-all duration-300"
               >
                 <div
                   onClick={() => toggleAccordion(index)}
@@ -197,7 +197,7 @@ const Foa = () => {
                   </span>
                 </div>
                 {openIndexes.includes(index) && (
-                  <div className="mt-2 text-white font-poppins text-sm whitespace-pre-line">
+                  <div className="mt-2 text-[#000000] p-2 rounded-[5px] bg-white font-poppins text-sm whitespace-pre-line">
                     {item.answer}
                   </div>
                 )}
