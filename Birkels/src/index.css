@@ -8,6 +8,15 @@
 }
 
 
+/* .swiper-pagination-bullet {
+  background-color: #003399;
+  opacity: 0.5;
+  transition: opacity 0.3s;
+}
+.swiper-pagination-bullet-active {
+  opacity: 1;
+} */
+
 
 :root {
   --bgdark-mode: rgba(11, 15, 29, 1);

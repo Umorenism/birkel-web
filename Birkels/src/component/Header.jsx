@@ -39,9 +39,20 @@ const Header = () => {
             </nav>
           </div>
           <a href="tel:+1234567890" className="hidden sm:block">
-        <button className="w-[141px] h-[44px] px-[26px] py-[10px] rounded-full border border-[#003399] text-[#003399] font-medium bg-gradient-to-r from-[#CCD6EB] to-[#F5F5F5] hidden sm:block">
+         {/* <div>
+           <button className="w-[141px] h-[44px] px-[26px]  py-[10px] rounded-full border border-[#003399] text-[#003399] font-medium bg-gradient-to-r from-[#CCD6EB] to-[#F5F5F5] hidden sm:block">
   Book a Call
 </button>
+         </div> */}
+
+         <div className="sm:w-[150px]  w-[104px] h-[44px] bg-gray-200 rounded-full flex items-center justify-center">
+  <button className="px-[26px] py-[10px] h-[90%] w-[95%] flex items-center rounded-full border border-[#003399] text-[#003399] font-medium bg-gradient-to-r from-[#CCD6EB] to-[#F5F5F5]
+  hover:opacity-90 transition duration-300 ">
+    Book a Call
+  </button>
+</div>
+
+
 
 
           </a>

@@ -40,7 +40,7 @@ export default function Choose() {
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 items-center bg-white p-6 sm:p-12">
           {/* Text Section */}
           <div className="space-y-6 text-left">
-            <div className="w-fit p-[2px] rounded-full bg-gradient-to-r from-[#003399] to-[#CCD6EB]">
+            <div className="w-fit p-[2px] rounded-[100px] bg-gradient-to-r from-[#003399] to-[#CCD6EB]">
               <button className="bg-gradient-to-r from-[#CCD6EB] to-[#F5F5F5] w-[146px] h-[41px] text-[#003399] px-5 py-2 rounded-full font-[500]  hover:opacity-90 transition">
                 Choose Birkel
               </button>
@@ -57,7 +57,7 @@ export default function Choose() {
               </button> */}
 
              
-              <button className="bg-gradient-to-r from-[#001F5C] to-[#00297A] w-[146px] h-[41px] text-[#FFFFFF] font-poppins font-[500] px-5 py-2 rounded-full  hover:opacity-90 transition">
+              <button className="bg-gradient-to-r from-[#001F5C] to-[#00297A] w-[146px] h-[41px] text-[#FFFFFF] font-poppins font-[500] px-5 py-2 rounded-[100px]  hover:opacity-90 transition">
                Book a Call
              </button>
             </div>
