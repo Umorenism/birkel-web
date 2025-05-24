@@ -1,4 +1,4 @@
-import  { useState } from "react";
+import { useState } from "react";
 import logo from "../assets/Logo 2.svg";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { IoIosArrowDown } from "react-icons/io";
@@ -13,10 +13,14 @@ const Header = () => {
   return (
     <>
       <header className="fixed top-0 left-0 w-full bg-white  z-50">
-        <div className="max-w-[1060px] mx-auto px-4 flex justify-between items-center py-5">
+        <div className="max-w-[1200px] mx-auto px-4 flex justify-between items-center py-5">
           {/* Logo */}
           <div className="flex items-center gap-6">
-            <img src={logo} alt="Logo" className="h-[50px] w-[121px] object-contain " />
+            <img
+              src={logo}
+              alt="Logo"
+              className="h-[50px] w-[121px] object-contain "
+            />
 
             <nav className="hidden md:flex items-center gap-10">
               <ul className="flex items-center gap-8 text-gray-700 font-bold">
@@ -39,22 +43,16 @@ const Header = () => {
             </nav>
           </div>
           <a href="tel:+1234567890" className="hidden sm:block">
-         {/* <div>
-           <button className="w-[141px] h-[44px] px-[26px]  py-[10px] rounded-full border border-[#003399] text-[#003399] font-medium bg-gradient-to-r from-[#CCD6EB] to-[#F5F5F5] hidden sm:block">
-  Book a Call
-</button>
-         </div> */}
+            
 
-         <div className="sm:w-[150px]  w-[104px] h-[44px] bg-gray-200 rounded-full flex items-center justify-center">
-  <button className="px-[26px] py-[10px] h-[90%] w-[95%] flex items-center rounded-full border border-[#003399] text-[#003399] font-medium bg-gradient-to-r from-[#CCD6EB] to-[#F5F5F5]
-  hover:opacity-90 transition duration-300 ">
-    Book a Call
-  </button>
-</div>
-
-
-
-
+            <div className="sm:w-[150px]  w-[104px] h-[44px] bg-gray-200 rounded-full flex items-center justify-center">
+              <button
+                className="px-[26px] py-[10px] h-[90%] w-[95%] flex items-center rounded-full border border-[#003399] text-[#003399] font-medium bg-gradient-to-r from-[#CCD6EB] to-[#F5F5F5]
+  hover:opacity-90 transition duration-300 "
+              >
+                Book a Call
+              </button>
+            </div>
           </a>
 
           {/* Desktop Nav */}

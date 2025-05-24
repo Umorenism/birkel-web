@@ -14,8 +14,8 @@ export default function Footer() {
       <div className="absolute z-2 inset-0 bg-[#001F5C]/90"></div>
 
       {/* Content */}
-      <div className="relative z-10 w-full max-w-[1000px] mx-auto h-full flex flex-col justify-between px-4 py-10">
-        <div className="w-full max-w-[950px]  mx-auto grid grid-cols-1 md:grid-cols-2 gap-2 items-start">
+      <div className="relative z-10 w-full max-w-[1500px] mx-auto h-full flex flex-col justify-between px-4 py-10">
+        <div className="w-full max-w-[1200px]  mx-auto grid grid-cols-1 md:grid-cols-2 gap-2 items-start">
           {/* Logo Section */}
           <div className="flex justify-center md:justify-start mb-6 md:mb-0">
             <img src={logo} alt="Brikel Logo" className="w-40 sm:w-48" />
@@ -118,7 +118,7 @@ export default function Footer() {
         </div>
 
         {/* Social + Copyright */}
-        <div className="relative z-10 w-full max-w-[950px] sm:mt-20 mt-[80px] h-[80%] mx-auto flex flex-col md:flex-row justify-between items-center gap-4">
+        <div className="relative z-10 w-full max-w-[1200px] sm:mt-20 mt-[80px] h-[80%] mx-auto flex flex-col md:flex-row justify-between items-center gap-4">
           <div className="flex space-x-4 text-xl text-white sm:mb-0 mb-20">
             <FaFacebook className="hover:text-gray-300 transition" />
             <FaInstagram className="hover:text-gray-300 transition" />
