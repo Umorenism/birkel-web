@@ -20,13 +20,17 @@ export default function Choose() {
               managed in Nigeria, Brikel has quickly established itself as a
               leader in the sports facility management industry.
             </p>
-            <div className="flex gap-4">
-              
-             
-              <button className="bg-gradient-to-r from-[#001F5C] to-[#00297A] w-[146px] h-[41px] text-[#FFFFFF] font-poppins font-[500] px-5 py-2 rounded-[100px]  hover:opacity-90 transition">
-               Book a Call
-             </button>
-            </div>
+
+          <div className="relative w-[157px] h-[50px] flex items-center justify-center">
+            <div className="absolute inset-0 bg-gray-500/20 backdrop-blur-lg rounded-full z-0" />
+            
+            <button className="relative z-10 bg-gradient-to-r from-[#001F5C] to-[#00297A] w-[146px] h-[41px] text-white font-poppins font-[500] rounded-full hover:opacity-90 transition">
+              Book a Call
+            </button>
+          </div>
+
+
+
           </div>
 
           {/* Image Section */}

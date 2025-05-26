@@ -45,14 +45,22 @@ const Header = () => {
           <a href="tel:+1234567890" className="hidden sm:block">
             
 
-            <div className="sm:w-[150px]  w-[104px] h-[44px] bg-gray-200 rounded-full flex items-center justify-center">
+            {/* <div className="sm:w-[150px]  w-[104px] h-[44px] bg-gray-200 rounded-full flex items-center justify-center">
               <button
                 className="px-[26px] py-[10px] h-[90%] w-[95%] flex items-center rounded-full border border-[#003399] text-[#003399] font-medium bg-gradient-to-r from-[#CCD6EB] to-[#F5F5F5]
   hover:opacity-90 transition duration-300 "
               >
                 Book a Call
               </button>
-            </div>
+            </div> */}
+
+              <div className="sm:w-[150px] w-[150px] h-[48px] rounded-full flex items-center justify-center bg-gray-500/30 backdrop-blur-sm shadow-md">
+                <button
+                  className="px-[26px] py-[10px] h-[90%] sm:w-[95%] flex items-center rounded-full border border-[#003399] text-[#003399] font-medium bg-gradient-to-r from-[#CCD6EB] to-[#F5F5F5] hover:opacity-90 transition duration-300"
+                >
+                  Book a Call
+                </button>
+              </div>
           </a>
 
           {/* Desktop Nav */}
